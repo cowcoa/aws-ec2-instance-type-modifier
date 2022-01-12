@@ -1,5 +1,5 @@
 ## AWS EC2 instances type modifier
-Batch modify the specified AWS EC2 instances with the specified instance type.
+Batch modify the specified AWS EC2 instances with the specified instance type.<br />
 NOTE: Modify the EC2 instance type will cause these instances to be stopped and restarted.
 
 ## Usage
