@@ -6,8 +6,8 @@ help_function()
 {
     echo ""
     echo "Usage: $0 -i instance_id_1,instance_id_2,... -t m5.xlarge -r ap-northeast-2"
-    echo -e "\t-i List of EC2 instance IDs that will be replaced."
-    echo -e "\t-t Target EC2 instance type that will be modified."
+    echo -e "\t-i List of EC2 instance IDs that will be modified."
+    echo -e "\t-t Target EC2 instance type."
     echo -e "\t-r AWS region where EC2 instances are located."
     echo ""
     exit 1 # Exit script after printing help.
