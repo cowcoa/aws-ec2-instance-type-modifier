@@ -3,9 +3,9 @@ Batch modify the specified AWS EC2 instances with the specified instance type.
 NOTE: Modify the EC2 instance type will cause these instances to be stopped and restarted.
 
 ## Usage
-1. Install and configure AWS CLI environment:
-   https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
-   https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
+1. Install and configure AWS CLI environment:<br />
+   [Installation] - Installing or updating the latest version of the AWS CLI.<br />
+   [Configuration] - Configure basic settings that AWS CLI uses to interact with AWS.
 2. Run script:
     ```sh
     ./ec2_instances_type_modifier.sh
@@ -14,3 +14,6 @@ NOTE: Modify the EC2 instance type will cause these instances to be stopped and 
         -t Target EC2 instance type that will be modified.
         -r AWS region where EC2 instances are located.
     ```
+
+[Installation]: <https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html>
+[Configuration]: <https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html>
